@@ -52,8 +52,14 @@ main p {
   padding: 0.5rem 1rem;
 }
 
+/* General paragraph rule for padding 0 */
+p {
+  padding: 0;
+}
+
 /* Aside section */
 aside {
+  width: 90%;
   max-width: 800px;
   margin: 2rem auto;
   border: 1px solid #ccc;
@@ -64,8 +70,7 @@ aside {
 }
 
 aside img {
-  width: 100%;
-  max-width: 300px;
+  width: 200px;
   height: auto;
   margin: 1rem 0;
 }
